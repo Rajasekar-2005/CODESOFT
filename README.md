@@ -1,14 +1,24 @@
-# Image Captioning AI
+# Rule-Based Chatbot
 
-A deep learning project that combines Computer Vision and Natural Language Processing to automatically generate captions for images.
+A simple rule-based chatbot that responds to user inputs using predefined patterns and rules.
 
-## 🌟 Features
+## Features
 
-- **CNN Encoder**: Uses pretrained models (ResNet50, VGG16, Inception V3) for feature extraction
-- **RNN Decoder**: LSTM-based sequence generator for caption generation
-- **Beam Search**: Advanced decoding strategy for better caption quality
-- **Multiple Model Support**: Easily switch between different pretrained models
-- **Training Pipeline**: Complete training infrastructure
-- **Inference**: Generate captions for new images
+- **Greetings**: Responds to hi, hello, hey, etc.
+- **Personal Information**: Answers questions about itself
+- **Time & Date**: Provides current time and date
+- **Jokes**: Tells random jokes
+- **Name Recognition**: Remembers your name
+- **Help Command**: Shows available capabilities
+- **Exit Commands**: Multiple ways to end conversation
 
-## 🏗️ Architecture
+## Installation
+
+1. Clone or download this project
+2. No external dependencies required (uses Python standard library)
+
+## How to Run
+
+### Method 1: Direct execution
+```bash
+python chatbot.py
