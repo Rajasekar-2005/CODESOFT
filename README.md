@@ -1,30 +1,14 @@
-# Tic-Tac-Toe AI Game
+# Image Captioning AI
 
-An advanced Tic-Tac-Toe game with an unbeatable AI using the Minimax algorithm with Alpha-Beta Pruning.
+A deep learning project that combines Computer Vision and Natural Language Processing to automatically generate captions for images.
 
-## Features
+## 🌟 Features
 
-### Game Modes
-- **Human vs AI**: Play against an intelligent AI
-- **Human vs Human**: Play with a friend
-- **AI vs AI**: Watch two AI players battle it out
+- **CNN Encoder**: Uses pretrained models (ResNet50, VGG16, Inception V3) for feature extraction
+- **RNN Decoder**: LSTM-based sequence generator for caption generation
+- **Beam Search**: Advanced decoding strategy for better caption quality
+- **Multiple Model Support**: Easily switch between different pretrained models
+- **Training Pipeline**: Complete training infrastructure
+- **Inference**: Generate captions for new images
 
-### AI Difficulty Levels
-1. **Easy**: Makes random moves
-2. **Medium**: Mix of strategic and random moves
-3. **Hard**: Unbeatable AI using Minimax algorithm
-
-### Advanced Features
-- **Minimax Algorithm**: AI uses game theory to calculate optimal moves
-- **Alpha-Beta Pruning**: Optimizes the minimax algorithm for better performance
-- **Move Evaluation Counter**: Shows how many game states the AI evaluated
-- **Game Statistics**: Tracks wins, losses, and draws
-- **Multiple Game Support**: Play multiple rounds and see cumulative stats
-
-## Installation
-
-No external dependencies required! Uses only Python standard library.
-
-```bash
-# Clone or download the project
-cd tictactoe-ai
+## 🏗️ Architecture
