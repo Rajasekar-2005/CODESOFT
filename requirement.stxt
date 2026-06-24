@@ -1,5 +1,0 @@
-# No external dependencies required for basic version
-# All using Python standard library
-
-# Optional for enhanced UI:
-# colorama==0.4.6
